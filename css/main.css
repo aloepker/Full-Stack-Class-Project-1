@@ -6,8 +6,20 @@ body{
   background-color: #888888;
   color: black;
   text-align: center;
+  background: url("370z-forza-drift.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
+/*
+.container {
+  width: fit-content;
+   clear: both;
+}
+.container input{
+  width: 100%;
+  clear: both;
+}
+*/
 .wrapper-main{
   width: 1000px;
   padding: 100px 0;
@@ -81,6 +93,9 @@ a{
 @media screen and (min-width: 1000px) {
   body {
     background-color: deeppink;
+    background: url("driftphoto.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   h1 span::before {
     content: "Desktop Device";
