@@ -10,6 +10,16 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+span{
+
+}
+/*label{
+  display: inline-block;
+  width: 1%;
+  text-align: right;
+}
+
+ */
 /*
 .container {
   width: fit-content;
@@ -48,9 +58,9 @@ a{
   body{
     background-color: aqua;
   }
-  h1 span::before {
+ /* h1 span::before {
     content: "phone device";
-  }
+  }*/
   header {
     min-height: 120px;
     background-color: rgba(220,220,220,.6);
@@ -74,9 +84,10 @@ a{
   body {
     background-color: sandybrown;
   }
-  h1 span::before {
+/*  h1 span::before {
     content: "Tablet Device";
   }
+*/
   .maincontainer {
     display: flex;
     flex-direction: row;
@@ -97,7 +108,7 @@ a{
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  h1 span::before {
+  /*h1 span::before {
     content: "Desktop Device";
-  }
+  }*/
 }
